@@ -1,0 +1,46 @@
+Hexarover Parts List
+====
+
+- Arduino Uno R3
+- ESP32-CAM Wireless Board
+- OV2640 Camera Module
+- 4× TT Motors
+- 2× 18650 l-ion batteries
+- 18650 battery holder
+- XT60 connectors
+- LM2596 DC-DC Buck with LED voltage display
+- 20AWG JST connectors
+- Main power switch
+- WWZMDiB Micro SD module
+- L298N Motor Driver
+- DHT11 Temperature and Humidity Sensor
+- HC-SR501 Infrared Sensor
+- GY-BMP280 Pressure Sensor
+- LM393 Photosensitive Sensor
+- Soil Moisture Sensor
+- KY-008 Sensor
+- TTP223B Touch Sensor
+- Water Level Sensor
+- Voltage Sensor
+- Speed Sensor
+- Linear Magnetic Hall Sensor
+- HC-SR04 Ultrasonic Sensor
+- Vibration Switch Sensor
+- Tracking Module
+- Microphone Sensor
+- Photosensitive Sensor
+- Obstacle Avoidance Sensor
+- Raindrop Sensor
+- Angle Sensor
+- Infrared Receive Sensor
+- Hall Magnetic Sensor
+- 2x WWZMDiB SG90 Micro Servo Motors
+- Prototyping boards
+- Male/female headers
+- 22AWG and 20AWG wire
+- 2x Small heat sink
+- 10mm M4 bolt set
+- PLA filament
+- TPU filament
+- 40x 6x3mm round Neodyneum magnets
+- Heat shrink tubing
