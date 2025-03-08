@@ -2,10 +2,11 @@ Hexarover Parts List
 ====
 
 - Arduino Uno R3
+- 3× Arduino Nano
 - ESP32-CAM Wireless Board
 - OV2640 Camera Module
 - 4× TT Motors
-- 2× 18650 l-ion batteries
+- 2× 18650 l-ion batteries (5000 mAh recommended)
 - 18650 battery holder
 - XT60 connectors
 - LM2596 DC-DC Buck with LED voltage display
