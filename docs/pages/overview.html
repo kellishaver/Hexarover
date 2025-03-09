@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexarover Documentation</title>
+    <link rel="stylesheet" href="../css/docs.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Project Hexarover</h1>
+        <p>A Modular Environmental Sensing Platform</p>
+        
+        <h2>Overview</h2>
+        <p>Hexraover is a modular environmental sensing rover with these key technical components:</p>
+        <ul>
+            <li><strong class="highlight">Core Platform:</strong> Arduino Uno controlling 4 TT motors via L298N motor drivers, powered by dual 18650 batteries (5000mAh) with voltage regulation through a DC-DC buck converter</li>
+            <li><strong class="highlight">Communication System:</strong> ESP32-CAM modules providing WiFi connectivity, video streaming, and REST API endpoints for remote control and data access</li>
+            <li><strong class="highlight">Distributed Computing Architecture:</strong> Each sensor pack will have its own Arduino Nano microcontroller, communicating with the main Arduino via I2C protocol</li>
+            <li><strong class="highlight">Modular Hardware Design:</strong> Custom 3D printed chassis with a Universal Mounting Bracket (UMB) system for tool-free swapping of sensor modules</li>
+            <li><strong class="highlight">Sensor Categories:</strong>
+                <ul>
+                    <li>Atmospheric monitoring (temperature, humidity, pressure, etc.)</li>
+                    <li>Terrain analysis (soil moisture, vibration, inclination)</li>
+                    <li>Navigation awareness (ultrasonic, infrared, obstacle detection)</li>
+                </ul>
+            </li>
+            <li><strong class="highlight">Software Framework:</strong> Web interface for control and data visualization, with a REST API enabling configuration of which sensors are connected to which pins</li>
+            <li><strong class="highlight">Mechanical Features:</strong> Hybrid PLA/TPU wheel design with 3D printed cores and flexible TPU tires for better traction</li>
+        </ul>
+        <p>The project emphasizes modularity throughout - both physically through the universal mounting system and electronically through the distributed microcontroller approach. This allows for customization and incremental development while maintaining a clean separation of concerns in the code.</p>
+
+        <h3>Hexarover's Story</h3>
+        <p>Hexarover began as a small idea that evolved into something much larger and much more meaningful. My goal for this project is to create an accessible, reasonably affordable, open platform for exploration, fun, and learning. Seeing Hexarover show up in someone's school robotics program or STEM learning camp, or simply hearing of other people enjoying the project would be a dream come true for a very special reason.</p>
+        <p>This rover is the type of project my father and I would have undertaken together when I was a young teen. He was always making, repairing, building, and creating and he had a fondness for electronics and technology. He instilled this curiosity and creativity in me and I credit it for much joy and the success I've had in my life.</p>
+        <p>I'm a woman who was born blind in the 70s and grew up poor. I doubt anyone expected me to go into a STEM field. But my father never let cultural expectations or my own supposed limitations get in the way of helping me pursue my interests.</p>
+        <p>This project is a tribute to that spirit and that dedication.</p>
+        <hr>
+        <p><a href="../index.html">&laquo; Table of Contents</a>
+    </div>
+</body>
